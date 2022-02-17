@@ -3,7 +3,6 @@
     "id": 1,
     "img": "/img/img.png",
     "name": "Walter White",
-    "position": "Web develpar",
     "phone": "+49 12345678",
     "email": "walter@b-bad.com",
     "website": "www.test.com"
@@ -22,7 +21,6 @@
     "img": "/img/img.png",
     "name": "Walter White",
     "position": "Web develpar",
-    "phone": "+49 12345678",
     "email": "walter@b-bad.com",
     "website": "www.test.com"
   },
@@ -41,8 +39,7 @@
     "name": "Walter White",
     "position": "Web develpar",
     "phone": "+49 12345678",
-    "email": "walter@b-bad.com",
-    "website": "www.test.com"
+    "email": "walter@b-bad.com"
   },
   {
     "id": 6,
