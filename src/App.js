@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Text from "./components/Text";
 import Social from "./components/Social";
 import Team from "./components/Team";
+import File from "./components/File";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Text />
         <Social />
         <Team />
+        <File name="Boody" lastName="Atef" />
       </div>
     </div>
   );
