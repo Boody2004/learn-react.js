@@ -1,15 +1,19 @@
 import React from "react";
-import "./App.css";
+import "./StyleApp.css";
 import Header from "./components/Header";
 import Text from "./components/Text";
 import Social from "./components/Social";
+import Team from "./components/Team";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Header />
-      <Text />
-      <Social />
+      <div className="container">
+        <Text />
+        <Social />
+        <Team />
+      </div>
     </div>
   );
 }

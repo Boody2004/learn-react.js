@@ -14,7 +14,7 @@ function Header() {
   };
 
   return (
-    <section className="p-3 text-white bg-primary rounded">
+    <section className="p-3 px-5 text-white bg-primary">
       Hello {`${clintInfo.name} ${clintInfo.lastName}`}
       <h2>
         {client === "Programmer" ? title.programmer : title.designer}
