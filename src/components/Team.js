@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "./ItemMembers.json";
+import Data from "./json/ItemMembers.json";
 import TeamMember from "./TeamMember";
 
 function Team() {
