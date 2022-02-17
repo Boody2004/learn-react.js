@@ -14,5 +14,5 @@ npm install
 ### Compiles and minifies for production
 
 ```
-npm start dev
+npm start
 ```

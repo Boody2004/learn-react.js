@@ -1,4 +1,5 @@
 import React from "react";
+import Data from "./ItemMembers.json";
 import TeamMember from "./TeamMember";
 
 function Team() {
@@ -9,71 +10,17 @@ function Team() {
       </header>
 
       <div className="row">
-        <TeamMember
-          info={{
-            img: "/img/img.png",
-            name: "Walter White",
-            position: "Web develpar",
-            phone: "+49 12345678",
-            email: "walter@b-bad.com",
-            website: "www.test.com",
-          }}
-        />
-
-        <TeamMember
-          info={{
-            img: "/img/img.png",
-            name: "Walter White",
-            position: "Web develpar",
-            phone: "+49 12345678",
-            email: "walter@b-bad.com",
-            website: "www.test.com",
-          }}
-        />
-
-        <TeamMember
-          info={{
-            img: "/img/img.png",
-            name: "Walter White",
-            position: "Web develpar",
-            phone: "+49 12345678",
-            email: "walter@b-bad.com",
-            website: "www.test.com",
-          }}
-        />
-
-        <TeamMember
-          info={{
-            img: "/img/img.png",
-            name: "Walter White",
-            position: "Web develpar",
-            phone: "+49 12345678",
-            email: "walter@b-bad.com",
-            website: "www.test.com",
-          }}
-        />
-
-        <TeamMember
-          info={{
-            img: "/img/img.png",
-            name: "Walter White",
-            position: "Web develpar",
-            phone: "+49 12345678",
-            email: "walter@b-bad.com",
-            website: "www.test.com",
-          }}
-        />
-
-        <TeamMember
-          info={{
-            img: "/img/img.png",
-            name: "Walter White",
-            position: "Web develpar",
-            phone: "+49 12345678",
-            email: "walter@b-bad.com",
-            website: "www.test.com",
-          }}
-        />
+        {Data.map((item) => (
+          <TeamMember
+            key={item.id}
+            img={item.img}
+            name={item.name}
+            position={item.position}
+            phone={item.phone}
+            email={item.email}
+            website={item.website}
+          />
+        ))}
       </div>
     </section>
   );
