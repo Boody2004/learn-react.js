@@ -52,6 +52,7 @@ nav a:hover {
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
+  border-radius: 5px;
   background: #f3f3f3;
   transition: all 0.3s;
 }
