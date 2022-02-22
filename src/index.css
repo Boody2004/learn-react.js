@@ -66,8 +66,28 @@ nav a:hover {
 .blog-preview:hover {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
+.blog-preview a {
+  text-decoration: none;
+}
+
 .blog-preview h2 {
   font-size: 20px;
   color: #4ed9ff;
   margin-bottom: 8px;
+}
+.blog-details h2 {
+  font-size: 20px;
+  color: #4ed9ff;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  color: #f2f2f2;
+  background: #4ed9ff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
