@@ -1,5 +1,5 @@
-import BlogList from "./BlogList";
-import UseEffect from "./UseFetch";
+import BlogList from "../components/BlogList";
+import UseEffect from "../components/UseFetch";
 
 const Home = () => {
   const {
