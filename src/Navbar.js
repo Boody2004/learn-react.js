@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,8 +9,8 @@ const Navbar = () => {
       <h1>The Dojo Blog</h1>
 
       <div className="links">
-        <a
-          href="/"
+        <Link
+          to="/"
           style={{
             color: "#fff",
             backgroundColor: "#4ed9ff",
@@ -17,8 +18,9 @@ const Navbar = () => {
           }}
         >
           Home
-        </a>
-        <a href="/create">New Blog</a>
+        </Link>
+
+        <Link to="/create">New Blog</Link>
       </div>
     </nav>
   );
