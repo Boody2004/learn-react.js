@@ -5,7 +5,7 @@
 **HAVE FUN 👌**
 **Thanks, Abdelrahman-BE**
 
-- **Next.js**
+- **React.js**
 
 ## Project setup
 
