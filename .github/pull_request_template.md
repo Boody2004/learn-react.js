@@ -1,0 +1,4 @@
+- [ ] Add front end
+- [ ] Add back end
+- [ ] Add database
+- [ ] Add authentication
