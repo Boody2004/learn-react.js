@@ -1,9 +1,8 @@
 # learn-react.js
 
-<b>coded by [Boody-BE](https://github.com/Boody2004/abd-elrahman-atef-portfolio)</b>
+<b>coded by [Abdelrahman Atef](https://linklaunchy.vercel.app/boody_04)</b>
 
 **HAVE FUN 👌**
-**Thanks, Abdelrahman-BE**
 
 - **React.js**
 
